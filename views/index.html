@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{.title}}</title>
+</head>
+<body>
+<style type="text/css">
+    a{
+        text-decoration:none;
+        color: #6f6dfc;
+    }
+    .main{
+        width: 1000px;
+        position: absolute;
+        left: 200px;
+    }
+    .title{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 10px 0 20px 0;
+        height: 30px;
+    }
+    .banner{
+        height:30px;
+        padding: 0px 5px 15px 5px;
+        text-align: center;
+    }
+    .content{
+        padding-left: 20px;
+        height: 552px;
+    }
+    .c_top{
+        height: 50px;
+    }
+    .c_bottom{
+        height: 500px;
+        width: 964px;
+        border-left: #c0aafc solid 1px;
+        margin-top: 0px;
+        border-top: #c0aafc solid 1px;
+        border-bottom: #c0aafc solid 1px;
+    }
+    .info{
+        float: left;
+        width: 300px;
+        border-left: #c0aafc solid 1px;
+        border-top: #c0aafc solid 1px;
+
+        height: 44px;
+        padding: 5px 5px 0px 15px;
+    }
+    .stdout{
+        height: 499px;
+        overflow: auto;
+        float: left;
+        border-right: #c0aafc solid 1px;
+        padding-left: 10px;
+    }
+    .inner{
+        padding-top: 10px;
+    }
+</style>
+
+<div class="main">
+    <div class="title">hello gosync<span style="font-size: 14px;position:absolute;left:840px;top:20px;">欢迎：<span style="color: #fc0ca9;">{{.username}}</span><a style="margin-left: 20px;" href="/logout">退出</a></span></div>
+    <div class="banner">
+        项目列表：
+        <select id="project" onchange="get_tag_list_fun()" style="height: 30px">
+            <option value="kuaiyong">快用app</option>
+            <option value="gameweb">金梅平台</option>
+            <option value="gameadmin">金梅运营后台</option>
+            <option value="gamepromote">金梅买量后台</option>
+        </select>
+    </div>
+    <div class="content">
+        <div class="c_top">
+            <div class="info" style="width: 120px">
+                <button id="tag_list" style="margin-left: 20px">版本列表</button>
+
+            </div>
+            <div class="info" style="width: 160px">
+                <input id="tag" type="text" placeholder="v0.1.0" style="width: 60px">&nbsp;&nbsp;<button id="create_tag">生成版本</button>
+            </div>
+            <div class="info">
+                <button id="deploy" style="margin-left: 115px">上线</button>
+            </div>
+            <div class="info" style="border-right: #c0aafc solid 1px;">
+                <button id="rollback" style="margin-left: 115px">回滚</button>
+            </div>
+        </div>
+
+        <div class="c_bottom">
+            <div id="tag_list_info" class="stdout" style="width: 130px"></div>
+            <div id="stdout_info" class="stdout" style="width: 812px"></div>
+        </div>
+
+    </div>
+</div>
+<div id="loading" style="height: 50px;text-align: center;padding-left: 0;margin-top: 10px;display: none"><img src="/static/images/loading.gif"></div>
+
+</body>
+<script language="JavaScript">
+    var Ajax = {
+        get: function(url, fn) {
+            //创建XMLHttpRequest对象
+            var xhr = new XMLHttpRequest();
+            //true表示异步
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = function() {
+                // readyState == 4说明请求已完成
+                if(xhr.readyState == 4 && xhr.status == 200 || xhr.status == 304) {
+                    //responseText：从服务器获得数据
+                    fn.call(this, xhr.responseText);
+                }
+            };
+            xhr.send();
+        },
+        post: function(url, data, fn) { //data应为'a=a1&b=b1'这种字符串格式
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", url, true);
+            // 添加http头，发送信息至服务器时内容编码类型
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.onreadystatechange = function() {
+                if(xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 304)) {
+                    fn.call(this, xhr.responseText);
+                }
+            };
+            xhr.send(data);
+        }
+    }
+    var host_url = "http://localhost:8081"
+
+    var tag_list = document.getElementById("tag_list");
+    var tag_list_info = document.getElementById("tag_list_info")
+    var create_tag = document.getElementById("create_tag");
+    var deploy = document.getElementById("deploy");
+    var rollback = document.getElementById("rollback");
+    var stdout_info = document.getElementById("stdout_info")
+
+    var get_tag_list_fun = function(){
+        var project = document.getElementById("project").value
+        var loading_new = document.getElementById("loading").cloneNode(true)
+        loading_new.id = "loading_new"
+        loading_new.style.display = "block"
+        tag_list_info.appendChild(loading_new)
+        Ajax.get(host_url+"/api/tag_list/"+project,function(rs){
+            //console.log(rs)
+            var color_class = "green"
+            if(rs.length>6)
+            {
+                if(rs.substr(0,6)=="Error:")
+                {
+                    color_class = "red"
+                }
+            }
+            var new_dev = document.createElement("div");
+            new_dev.innerText = rs
+            new_dev.classList.add("inner")
+            new_dev.style.color = color_class
+            tag_list_info.innerHTML = ""
+            tag_list_info.appendChild(new_dev)
+        });
+    }
+    get_tag_list_fun()
+    tag_list.onclick = get_tag_list_fun
+
+    create_tag.onclick = function(){
+        var project = document.getElementById("project").value
+        var project_index = document.getElementById("project").selectedIndex;
+        var project_name = document.getElementById("project").options[project_index].text
+        var tag = document.getElementById("tag").value
+        if (tag.length<=0)
+        {
+            alert("请先输入版本号")
+            return false;
+        }
+        if(confirm("确定给项目{"+project_name+"}生成新版本吗？"))
+        {
+            var loading_new = document.getElementById("loading").cloneNode(true)
+            loading_new.id = "loading_new"
+            loading_new.style.display = "block"
+            stdout_info.appendChild(loading_new)
+            stdout_info.scrollTop = stdout_info.scrollHeight;
+            Ajax.get(host_url+"/api/create_tag/"+project+"/"+tag,function(rs){
+                var color_class = "green"
+                if(rs.length>6)
+                {
+                    if(rs.substr(0,6)=="Error:")
+                    {
+                        color_class = "red"
+                    }else
+                    {
+                        get_tag_list_fun()
+                    }
+                }
+                var new_dev = document.createElement("div");
+                new_dev.innerText = rs
+                new_dev.classList.add("inner")
+                new_dev.style.color = color_class
+                stdout_info.removeChild(loading_new)
+                stdout_info.appendChild(new_dev)
+                stdout_info.scrollTop = stdout_info.scrollHeight;
+            });
+        }
+    }
+
+    deploy.onclick = function(){
+        var project = document.getElementById("project").value
+        var project_index = document.getElementById("project").selectedIndex;
+        var project_name = document.getElementById("project").options[project_index].text
+        if(confirm("确定发布项目{"+project_name+"}吗？"))
+        {
+            var loading_new = document.getElementById("loading").cloneNode(true)
+            loading_new.id = "loading_new"
+            loading_new.style.display = "block"
+            stdout_info.appendChild(loading_new)
+            stdout_info.scrollTop = stdout_info.scrollHeight;
+            Ajax.get(host_url+"/api/deploy/"+project,function(rs){
+                var color_class = "green"
+                if(rs.length>6)
+                {
+                    if(rs.substr(0,6)=="Error:")
+                    {
+                        color_class = "red"
+                    }
+                }
+                var new_dev = document.createElement("div");
+                new_dev.innerText = rs
+                new_dev.classList.add("inner")
+                new_dev.style.color = color_class
+                stdout_info.removeChild(loading_new)
+                stdout_info.appendChild(new_dev)
+                stdout_info.scrollTop = stdout_info.scrollHeight;
+            });
+        }
+    }
+
+    rollback.onclick = function(){
+        var project = document.getElementById("project").value
+        var project_index = document.getElementById("project").selectedIndex;
+        var project_name = document.getElementById("project").options[project_index].text
+        if(confirm("确定回滚项目{"+project_name+"}吗？")) {
+            var loading_new = document.getElementById("loading").cloneNode(true)
+            loading_new.id = "loading_new"
+            loading_new.style.display = "block"
+            stdout_info.appendChild(loading_new)
+            stdout_info.scrollTop = stdout_info.scrollHeight;
+            Ajax.get(host_url+"/api/rollback/"+project, function (rs) {
+                var color_class = "green"
+                if(rs.length>6)
+                {
+                    if(rs.substr(0,6)=="Error:")
+                    {
+                        color_class = "red"
+                    }else{
+                        get_tag_list_fun()
+                    }
+                }
+                var new_dev = document.createElement("div");
+                new_dev.innerText = rs
+                new_dev.classList.add("inner")
+                new_dev.style.color = color_class
+                stdout_info.removeChild(loading_new)
+                stdout_info.appendChild(new_dev)
+                stdout_info.scrollTop = stdout_info.scrollHeight;
+            });
+        }
+    }
+
+
+</script>
+
+
+</html>

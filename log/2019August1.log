@@ -1,0 +1,649 @@
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 09:32 200 524.846µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:32 200 123.813µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:32 200 146.172µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:32 200 846.938956ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:32 200 315.157401ms ::1 GET /api/tag_list/gameadmin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:32 200 355.578107ms ::1 GET /api/create_tag/kuaiyong/fsdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:32 200 342.977052ms ::1 GET /api/create_tag/kuaiyong/fsdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 09:35 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 09:35 200 1.671822ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:35 200 701.719688ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:35 200 310.418764ms ::1 GET /api/tag_list/gameweb Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:35 200 271.957401ms ::1 GET /api/tag_list/gamepromote Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:35 200 328.78154ms ::1 GET /api/create_tag/gamepromote/ffsdf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:35 200 290.831861ms ::1 GET /api/tag_list/gamepromote Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:35 200 304.260824ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:35 200 371.67497ms ::1 GET /api/create_tag/kuaiyong/ffsdf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:36 200 9.399119646s ::1 GET /api/create_tag/kuaiyong/v0.1.3 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:36 200 21.180187937s ::1 GET /api/create_tag/kuaiyong/v0.1.51 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:37 200 291.199858ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 09:48 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 09:48 200 434.879µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:48 200 599.611115ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:48 200 107.24µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:48 200 383.943627ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:48 200 94.319µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:48 200 351.763913ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 09:49 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 09:50 200 356.662µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:50 200 520.79609ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:50 200 124.183µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:50 200 299.473644ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:52 200 370.511228ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:52 200 549.107336ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:52 200 419.917783ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 09:53 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 09:53 200 382.123µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 295.189092ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 145.356µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 173.026µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 105.977µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 123.43µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 623.351819ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 166.667µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 694.120161ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 610.131501ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 508.897195ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:53 200 388.65812ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 09:53 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 09:54 200 1.268226ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:54 200 493.799µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:54 200 166.177µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:54 200 92.096µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:54 200 100.71µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:54 200 338.385374ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:54 200 248.446563ms ::1 GET /api/tag_list/gameadmin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:54 200 247.495µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:54 200 325.810037ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 09:54 200 270.531402ms ::1 GET /api/tag_list/gamepromote Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 189.878µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 1.033099124s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 11:00 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 11:00 200 388.839µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 585.686019ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 134.23µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 361.062075ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 123.193µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 350.891131ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 117.051µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 131.595µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 457.329763ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 367.053245ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 353.786349ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:00 200 369.021526ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:01 200 323.642079ms ::1 GET /api/tag_list/gameadmin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:01 200 300.961296ms ::1 GET /api/tag_list/gameweb Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:01 200 378.660731ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:01 200 438.879934ms ::1 GET /api/create_tag/kuaiyong/fsdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:01 200 285.382541ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:01 200 361.709164ms ::1 GET /api/create_tag/kuaiyong/fsdfd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:01 200 304.961699ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:01 200 2.730718631s ::1 GET /api/create_tag/kuaiyong/v0.1.2 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:01 200 281.549674ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:39 200 4.424485942s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:43 200 4.066339699s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:44 200 4.061177109s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 11:44 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 11:44 200 4.33021ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:44 200 2.902884931s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:45 304 434.799µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:45 200 6.118851532s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:47 304 2.18411ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:47 200 6.752760676s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:55 304 1.086964ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:55 200 3.603570891s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:55 304 805.488µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:55 200 3.442396182s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 200 3.407906ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 304 215.961µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 200 3.534447ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 304 3.735275ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 200 183.799µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 304 1.629329ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 200 135.023µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 304 375.919µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 200 4.226868014s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 200 2.546818395s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 200 4.204410235s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:56 200 3.620694803s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:57 200 101.972µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:57 304 273.11µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 11:57 200 5.296306676s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 13:44 200 211.758µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 13:44 304 8.170489ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 13:44 200 8.777093571s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:01 304 390.54µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:01 200 3.66707733s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:01 304 429.195µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:01 200 10.819823322s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:02 304 327.831µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:02 200 8.896929816s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 14:08 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 14:09 200 664.353µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:09 304 297.497µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:09 200 6.797770619s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:09 200 2.749349477s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:09 200 5.522892ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:09 200 6.659224541s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 14:10 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 14:10 200 2.126569ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:10 304 111.697µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 14:11 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 14:11 200 439.514µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 2.576233ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 7.475301393s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 2.953704ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 2.85045ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 5.664548048s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 7.344155629s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 227.748µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 3.230240757s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 70.937µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 270.498µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:11 200 4.924064453s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 14:12 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 14:12 200 1.752531ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:12 200 5.700927ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:12 200 7.839829589s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 14:12 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 14:12 200 569.795µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:12 200 232.989µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:12 200 2.750399966s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:13 200 5.869664783s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:13 200 258.934649ms ::1 GET /api/tag_list/gameadmin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:13 200 3.085110848s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:13 200 2.608766968s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 14:15 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 14:15 200 441.332µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:15 304 1.443738ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:15 200 2.693222576s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:15 200 358.214208ms ::1 GET /api/create_tag/kuaiyong/sdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:15 200 2.626753818s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:16 200 348.833347ms ::1 GET /api/create_tag/kuaiyong/sdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:16 200 3.700852398s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:16 200 357.344931ms ::1 GET /api/create_tag/kuaiyong/sdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:16 200 2.682760531s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:20 200 756.015109ms ::1 GET /api/create_tag/kuaiyong/sdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:21 200 3.71401538s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 14:21 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 14:22 200 1.940286ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:22 304 1.525205ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:22 200 6.691618545s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:22 200 349.457004ms ::1 GET /api/create_tag/kuaiyong/dfdsfsd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:22 200 349.966957ms ::1 GET /api/create_tag/kuaiyong/dfdsfsd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:22 200 345.286764ms ::1 GET /api/create_tag/kuaiyong/dfdsfsd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:22 200 336.451039ms ::1 GET /api/create_tag/kuaiyong/v0.32 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:24 200 1m31.922176984s ::1 GET /api/create_tag/kuaiyong/v0.1.53 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:24 200 4.565151286s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:24 200 6.690881405s ::1 GET /api/deploy/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:26 200 1m20.152665161s ::1 GET /api/deploy/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:26 200 20.26332686s ::1 GET /api/rollback/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:28 304 138.662µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:29 200 2.981092477s ::1 GET /api/create_tag/kuaiyong/v0.1.50 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:29 200 1m16.188639322s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:29 200 328.873887ms ::1 GET /api/create_tag/kuaiyong/fsdfd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:29 200 294.496595ms ::1 GET /api/create_tag/kuaiyong/fsdfd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:29 200 282.943878ms ::1 GET /api/create_tag/kuaiyong/fsdfd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:29 200 337.095827ms ::1 GET /api/create_tag/kuaiyong/fsdfd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:30 200 275.467494ms ::1 GET /api/create_tag/kuaiyong/fsdfd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:30 200 345.391783ms ::1 GET /api/create_tag/kuaiyong/fsdfd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:30 200 5.543838407s ::1 GET /api/create_tag/kuaiyong/v0.0.1 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:30 304 989.661µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:32 200 1m15.908874981s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 14:32 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 14:33 200 672.75µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:33 304 3.739696ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:33 200 186.735µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:33 304 319.488µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:33 200 3.176597695s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:33 200 353.741583ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:33 200 336.781101ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:33 200 335.198353ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:33 200 331.136252ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:33 200 350.26008ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:33 200 349.398301ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 1m15.555706816s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 304 196.676µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 369.177949ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 284.576238ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 313.999092ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 357.269875ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 356.396956ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 337.958019ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 334.950631ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 341.410661ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 304 412.11µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 363.938649ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 332.563617ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 336.454348ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 343.298675ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 330.129692ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:34 200 332.757245ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:35 200 346.319456ms ::1 GET /api/create_tag/kuaiyong/sfdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[WARN] 2019/08/01 14:36 Recovered from a route's Handler('main.main.func3')
+At Request: 200 /api/create_tag/kuaiyong/v0.1.54 GET ::1
+Trace: exit status 128
+
+/usr/local/go/src/runtime/panic.go:522
+/Users/levsion/Documents/code/go/src/gosync/index.go:216
+/Users/levsion/Documents/code/go/src/gosync/index.go:209
+/Users/levsion/Documents/code/go/src/gosync/index.go:112
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:222
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:181
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/go/src/net/http/server.go:2774
+/usr/local/go/src/net/http/server.go:1878
+/usr/local/go/src/runtime/asm_amd64.s:1337
+
+[INFO] 2019/08/01 14:44 200 5.225407378s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:44 200 3.291756458s ::1 GET /api/create_tag/kuaiyong/v0.1.54 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:45 200 162.508µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:45 304 349.123µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:45 200 3.763681217s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:46 200 14.226215491s ::1 GET /api/create_tag/kuaiyong/v0.1.55 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 14:46 200 3.631362527s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:08 304 1.342697ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:08 304 820.725µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:09 304 145.513µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:09 304 226.583µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:09 304 179.193µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:09 304 142.72µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:09 304 182.977µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:09 304 177.803µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:32 304 333.724µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:33 304 185.779µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:33 304 174.279µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:35 304 3.405764ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:36 304 186.081µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:37 304 391.822µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:37 304 212.366µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:37 304 158.882µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:38 304 166.023µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:38 304 127.173µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:38 304 154.689µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:39 304 148.961µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:49 304 188.961µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:50 304 183.402µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:50 304 143.537µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:50 304 164.832µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 15:59 304 380.63µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:02 200 4.278747ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:02 200 2.24535ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:04 200 3.100293ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:05 200 5.077277ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:06 200 204.103µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:06 304 303.591µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:12 304 211.346µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 16:30 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 16:31 304 2.334319ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:31 304 196.259µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:31 304 666.125µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:32 200 257.239µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:32 304 810.498µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:32 200 35.708µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:32 304 204.654µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:32 200 1.562722ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 16:33 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 16:33 200 679.793µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:33 200 677.017µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:33 200 62.671µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:33 200 2.352193ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 16:34 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 16:34 200 401.14µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 4.407731ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 60.147µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 258.195µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 37.056µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 212.002µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 50.668µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 256.985µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 222.004µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 91.906µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 91.996µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 1.189103ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 38.873µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 3.509307ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 50.05µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 3.697352ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 43.956µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 190.945µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 40.663µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 246.37µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 40.278µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 319.313µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 683.734µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 419.407µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 90.933µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 571.665µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 27.519µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 210.273µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 39.855µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 322.929µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 33.462µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 419.502µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 26.399µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 8.404401ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 136.793µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 868.334µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 24.808µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:34 200 5.514198ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:35 200 39.854µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:35 200 3.517689ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:35 200 36.137µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:35 200 282.48µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:35 200 389.568µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:35 200 3.022279ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:35 304 177.741µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:35 200 6.317686415s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:35 200 44.972µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:35 200 453.609µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 16:49 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 16:50 200 576.368µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 1.851439ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 52.082µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 224.358µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 57.714µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 242.392µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 47.649µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 240.404µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 33.387µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 184.243µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 109.544µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 7.297436ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 128.109µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 360.708µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 540.39µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 214.591µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 304 152.131µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 4.319447461s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 113.567µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 7.100781ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 2.67739839s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 268.284µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 6.983257ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:50 200 4.025668827s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:52 302 280.337µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:52 200 460.256µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:52 200 5.014205ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:52 200 2.878904117s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:52 302 105.201µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:52 200 115.026µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:52 200 11.536237ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:52 200 3.53270948s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:52 302 48.969µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:53 200 102.327µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:53 200 207.213µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:53 200 67.714µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 16:53 304 110.002µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 17:01 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 17:02 200 471.672µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:02 304 182.62µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:02 200 87.894µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:02 304 467.988µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:02 200 40.475µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:02 304 105.458µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:03 200 49.298µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:03 200 21.917µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:03 200 59.889µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:03 200 517.606µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:03 304 262.532µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:03 200 6.561073089s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:03 304 146.399µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:04 200 33.722020038s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 17:07 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 17:08 301 572.954µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 200 222.265µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 304 867.632µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 200 53.055µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 304 127.231µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 200 47.746µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 304 120.674µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 200 62.518µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 304 117.79µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 200 90.854µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 301 48.136µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 301 91.961µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 200 94.163µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 304 105.002µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:08 200 7.527347446s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:09 301 76.033µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:09 301 27.095µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:09 301 40.435µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:09 301 38.623µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:09 301 28.474µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:09 301 30.392µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:09 301 26.08µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 301 30.165µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 301 209.167µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 200 84.651µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 200 3.435923ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 200 53.677µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 200 2.991118ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 200 158.758µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 200 2.783511ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 304 141.317µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 200 3.38770951s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:10 200 5.428087581s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:13 200 2.300684004s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:14 200 3.235349719s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:15 200 2.89921437s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:16 200 2.58160899s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:16 200 2.781527577s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:17 200 2.66087529s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:17 200 3.691590393s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:18 200 2.626571673s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:19 200 5.177385422s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:19 200 3.314238571s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:19 200 3.301843253s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 17:24 200 3.157999943s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 18:11 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 18:12 301 1.385182ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:12 200 280.939µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:12 200 3.004959ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:12 200 39.076µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:12 200 2.533672ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:12 200 44.661µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:12 200 9.031052ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:12 200 44.004µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:12 200 229.518µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:12 200 169.921µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[WARN] 2019/08/01 18:12 Recovered from a route's Handler('main.corsAll')
+At Request: 200 /api/login POST ::1
+Trace: runtime error: invalid memory address or nil pointer dereference
+
+/usr/local/go/src/runtime/panic.go:522
+/usr/local/go/src/runtime/panic.go:82
+/usr/local/go/src/runtime/signal_unix.go:390
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/sessions/sessions.go:73
+/Users/levsion/Documents/code/go/src/gosync/index.go:236
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:195
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/go/src/net/http/server.go:2774
+/usr/local/go/src/net/http/server.go:1878
+/usr/local/go/src/runtime/asm_amd64.s:1337
+
+[ERRO] 2019/08/01 18:29 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 18:29 200 422.876µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:29 200 4.856631ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:29 200 82.986µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:29 200 211.843µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:29 200 43.096µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:29 200 1.91843ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 18:31 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 18:31 200 471.666µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:31 200 6.180773ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:31 200 36.851µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:31 200 148.896µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:31 200 39.815µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:31 200 263.087µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:31 200 289.475µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 18:32 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 18:32 200 601.569µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 6.083174ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 65.591µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 206.585µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 34.969µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 416.381µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 40.416µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 556.11µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 461.683µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 267.295µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 304 154.409µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 2.949762633s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 133.926µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 255.915µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 3.355612355s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 421.032µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 2.199205844s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 282.03µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 2.192016736s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 415.082µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:32 200 383.202181ms ::1 GET /api/create_tag/kuaiyong/fdsfd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:33 301 130.241µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:33 200 133µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:33 200 321.743µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:33 200 2.238221452s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:33 301 44.269µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:33 301 208.708µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:33 200 89.635µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:33 200 249.264µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/01 18:34 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/08/01 18:34 200 508.764µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 200 52.287µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 304 119.761µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 200 59.429µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 304 207.48µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 200 121.693µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 304 186.674µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 200 63.899µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 301 82.589µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 301 72.174µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 200 293.599µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 304 92.679µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 200 2.815614642s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 301 84.874µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 301 132.388µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 200 73.828µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:34 304 169.467µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:35 200 165.35µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:35 301 52.236µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:35 301 51.018µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:35 200 83.475µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:35 304 100.198µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:35 200 2.245620612s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:36 200 129.614µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:36 304 1.753069ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:36 200 2.290177461s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 135.823µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 304 157.908µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 3.034276354s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 301 37.374µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 82.353µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 2.39627ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 65.164µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 374.515µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 161.32µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 2.92998ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 304 177.844µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 2.595822648s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 301 47.96µs ::1 GET /logout Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 57.338µs ::1 GET /login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 237.998µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 31.449µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 344.128µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 66.179µs ::1 POST /api/login Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 240.242µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 126.381µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 212.89µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:37 200 2.554745659s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:38 200 355.452µs ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:38 200 5.65752013s ::1 GET /api/deploy/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:38 304 1.244006ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:38 200 317.892213ms ::1 GET /api/create_tag/kuaiyong/fdsfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:39 200 18.30115874s ::1 GET /api/rollback/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/01 18:39 200 3.628499731s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/02 08:53 200 17.161613ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/02 08:53 304 4.771796ms ::1 GET /images/loading.gif Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/02 08:53 200 4.668973842s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/08/02 08:53 200 359.730332ms ::1 GET /api/tag_list/gameweb Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/08/02 09:10 http: Server closed

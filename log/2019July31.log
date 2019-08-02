@@ -1,0 +1,709 @@
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 11:13 200 629.93µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 11:13 200 1.245502604s ::1 GET /tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 11:20 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 11:21 200 1.024742719s ::1 GET /tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 11:30 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 11:30 200 3.283216468s ::1 GET /tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 11:31 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 11:36 200 3.295327192s ::1 GET /tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 11:36 200 346.806µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 11:37 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 11:38 200 420.346µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 11:38 200 51.246µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 11:38 200 43.905µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 11:46 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 11:47 200 2.962275143s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 11:47 200 362.615µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 11:48 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 11:52 200 478.079µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 11:57 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[WARN] 2019/07/31 11:57 Recovered from a route's Handler('main.main.func2')
+At Request: 200 /api/tag_list GET ::1
+Trace: exit status 1
+
+/usr/local/go/src/runtime/panic.go:522
+/Users/levsion/Documents/code/go/src/gosync/index.go:182
+/Users/levsion/Documents/code/go/src/gosync/index.go:175
+/Users/levsion/Documents/code/go/src/gosync/index.go:95
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/iris-contrib/middleware@v0.0.0-20190720041902-5f3a20f489c4/cors/cors.go:185
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:147
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/go/src/net/http/server.go:2774
+/usr/local/go/src/net/http/server.go:1878
+/usr/local/go/src/runtime/asm_amd64.s:1337
+
+[WARN] 2019/07/31 11:57 Recovered from a route's Handler('main.main.func2')
+At Request: 200 /api/tag_list GET ::1
+Trace: exit status 1
+
+/usr/local/go/src/runtime/panic.go:522
+/Users/levsion/Documents/code/go/src/gosync/index.go:182
+/Users/levsion/Documents/code/go/src/gosync/index.go:175
+/Users/levsion/Documents/code/go/src/gosync/index.go:95
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/iris-contrib/middleware@v0.0.0-20190720041902-5f3a20f489c4/cors/cors.go:185
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:147
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/go/src/net/http/server.go:2774
+/usr/local/go/src/net/http/server.go:1878
+/usr/local/go/src/runtime/asm_amd64.s:1337
+
+[WARN] 2019/07/31 11:57 Recovered from a route's Handler('main.main.func2')
+At Request: 200 /api/tag_list GET ::1
+Trace: exit status 1
+
+/usr/local/go/src/runtime/panic.go:522
+/Users/levsion/Documents/code/go/src/gosync/index.go:182
+/Users/levsion/Documents/code/go/src/gosync/index.go:175
+/Users/levsion/Documents/code/go/src/gosync/index.go:95
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/iris-contrib/middleware@v0.0.0-20190720041902-5f3a20f489c4/cors/cors.go:185
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:147
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/go/src/net/http/server.go:2774
+/usr/local/go/src/net/http/server.go:1878
+/usr/local/go/src/runtime/asm_amd64.s:1337
+
+[ERRO] 2019/07/31 11:58 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[WARN] 2019/07/31 11:58 Recovered from a route's Handler('main.main.func2')
+At Request: 200 /api/tag_list GET ::1
+Trace: exit status 1
+
+/usr/local/go/src/runtime/panic.go:522
+/Users/levsion/Documents/code/go/src/gosync/index.go:182
+/Users/levsion/Documents/code/go/src/gosync/index.go:175
+/Users/levsion/Documents/code/go/src/gosync/index.go:95
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/iris-contrib/middleware@v0.0.0-20190720041902-5f3a20f489c4/cors/cors.go:185
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:147
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/go/src/net/http/server.go:2774
+/usr/local/go/src/net/http/server.go:1878
+/usr/local/go/src/runtime/asm_amd64.s:1337
+
+[WARN] 2019/07/31 11:58 Recovered from a route's Handler('main.main.func2')
+At Request: 200 /api/tag_list GET ::1
+Trace: exit status 1
+
+/usr/local/go/src/runtime/panic.go:522
+/Users/levsion/Documents/code/go/src/gosync/index.go:182
+/Users/levsion/Documents/code/go/src/gosync/index.go:175
+/Users/levsion/Documents/code/go/src/gosync/index.go:95
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/iris-contrib/middleware@v0.0.0-20190720041902-5f3a20f489c4/cors/cors.go:185
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:147
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/go/src/net/http/server.go:2774
+/usr/local/go/src/net/http/server.go:1878
+/usr/local/go/src/runtime/asm_amd64.s:1337
+
+[ERRO] 2019/07/31 11:58 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 13:47 200 3.53136904s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 13:47 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 13:47 200 369.575µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 13:47 200 162.05µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 13:47 200 56.511µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 13:47 200 88.866µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 14:15 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 14:15 200 341.969µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:15 200 62.208µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:15 200 55.34µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:15 200 56.71µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 14:20 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 14:49 200 524.131µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:49 200 64.012µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:49 200 44.053µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:50 200 3.518654077s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 14:52 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 14:52 200 570.68µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:52 200 84.697µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:52 200 58.752µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:52 200 46.698µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:52 200 3.052515337s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 14:54 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 14:54 200 321.722µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:54 200 77.973µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:54 200 59.591µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:54 200 57.824µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:54 200 4.596328254s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 14:57 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 14:57 200 3.309354139s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 14:58 200 1m15.595734405s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:02 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:10 200 7.209216716s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:11 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:11 200 3.642090521s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:12 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:12 200 7.687941028s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:13 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:14 200 5.501262272s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:15 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:16 200 12.624176941s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:17 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:18 200 2.55624304s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:18 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:18 200 3.156760456s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:21 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:22 200 6.639829249s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:22 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:23 200 950.255342ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:25 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:25 200 587.752923ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:26 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:26 200 309.325309ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:27 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:27 200 303.549585ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:31 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:32 200 603.005ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:32 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:32 200 361.795621ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:33 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:33 200 549.707818ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 15:44 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 15:47 200 1.207560918s ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 628.998µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 300.62582ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 293.374995ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 281.164749ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 286.715779ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 364.12238ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 392.241745ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 462.732587ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 482.413292ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 497.511532ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 15:49 200 446.767812ms ::1 GET /api/tag_list Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 16:21 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[WARN] 2019/07/31 16:22 Recovered from a route's Handler('main.main.func2')
+At Request: 200 /api/tag_list/aa GET ::1
+Trace: exit status 1
+
+/usr/local/go/src/runtime/panic.go:522
+/Users/levsion/Documents/code/go/src/gosync/index.go:187
+/Users/levsion/Documents/code/go/src/gosync/index.go:180
+/Users/levsion/Documents/code/go/src/gosync/index.go:94
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:193
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:152
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/go/src/net/http/server.go:2774
+/usr/local/go/src/net/http/server.go:1878
+/usr/local/go/src/runtime/asm_amd64.s:1337
+
+[WARN] 2019/07/31 16:22 Recovered from a route's Handler('main.main.func2')
+At Request: 200 /api/tag_list/aa GET ::1
+Trace: exit status 1
+
+/usr/local/go/src/runtime/panic.go:522
+/Users/levsion/Documents/code/go/src/gosync/index.go:187
+/Users/levsion/Documents/code/go/src/gosync/index.go:180
+/Users/levsion/Documents/code/go/src/gosync/index.go:94
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:193
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/src/gosync/index.go:152
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/levsion/Documents/code/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/go/src/net/http/server.go:2774
+/usr/local/go/src/net/http/server.go:1878
+/usr/local/go/src/runtime/asm_amd64.s:1337
+
+[INFO] 2019/07/31 16:30 200 889.221394ms ::1 GET /api/tag_list/aa Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 16:44 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 16:44 200 340.003µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:44 200 177.939µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:44 200 88.958µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:44 200 147.997µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:44 200 125.605µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 16:45 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 16:45 200 475.908µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:45 200 90.918µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:45 200 77.506µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:45 200 57.583µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 16:52 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 16:52 200 648.52846ms ::1 GET /api/tag_list/aa Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:52 200 363.850597ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:53 200 338.74255ms ::1 GET /api/tag_list/gameweb Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:53 200 326.847202ms ::1 GET /api/tag_list/gameweb Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:53 200 647.418µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 16:53 200 358.482655ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 17:00 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 17:01 200 706.074µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:01 200 101.688µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:01 200 723.837022ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 17:04 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 17:04 200 361.385µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 17:08 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 17:09 200 574.731µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 91.589µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 108.23µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 85.178µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 85.48µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 103.403µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 78.456µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 118.035µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 192.739µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 635.453618ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 260.992023ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 272.223424ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 281.56785ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 279.540219ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 328.438684ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 329.770674ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 340.352637ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 333.891359ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 325.4397ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 327.854755ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 314.088737ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 310.787274ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 312.559448ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 331.443042ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 304.758798ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 356.935077ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 316.287145ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 308.651966ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 325.094181ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 316.715294ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 282.918768ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 258.988016ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 280.256924ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 281.692648ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 281.331171ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 267.972166ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 355.680538ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:09 200 355.784236ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 17:16 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 17:17 200 413.934µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 127.841µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 119.302µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 85.102µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 83.365µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 728.758828ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 256.297657ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 337.685171ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 323.526645ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 332.59685ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 327.876966ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 338.384374ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 324.08799ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 321.951401ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 313.953162ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 320.393792ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 319.854873ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 289.105836ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 311.915126ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 300.99559ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 305.527451ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 344.101964ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 277.022117ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 277.30106ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 267.606958ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 269.050086ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 268.81349ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 264.214174ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:17 200 264.502481ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:24 200 1.315220375s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:24 200 322.589097ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:24 200 297.759429ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:24 200 322.848546ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:24 200 311.408068ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:24 200 350.507284ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:24 200 365.083385ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 17:24 200 343.251699ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 19:15 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 19:16 200 431.446µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 177.423µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 72.653µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 117.375µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 1.224438076s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 263.355346ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 270.175944ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 253.707416ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 260.33401ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 274.047865ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 269.455163ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:16 200 255.000203ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 19:18 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 19:18 200 406.751µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:18 200 181.114µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:18 200 144.082µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:18 200 111.586µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:18 200 126.783µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:18 200 673.844911ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:18 200 320.920912ms ::1 GET /api/create_tag/kuaiyong/ddd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:18 200 348.499521ms ::1 GET /api/create_tag/kuaiyong/ddd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:19 200 328.169954ms ::1 GET /api/create_tag/kuaiyong/ddd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 19:24 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 19:25 200 404.163µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:25 200 88.062µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:25 200 104.834µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:25 200 103.933µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:25 200 115.515µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:25 200 1.060259834s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:25 200 298.293314ms ::1 GET /api/create_tag/kuaiyong/fsdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:25 200 315.771684ms ::1 GET /api/create_tag/kuaiyong/v1.3 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 19:26 200 10.786266142s ::1 GET /api/create_tag/kuaiyong/v0.1.2 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 20:00 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 20:00 200 435.855µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:00 200 66.994µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:00 200 90.561µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:00 200 921.752027ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:00 200 349.968608ms ::1 GET /api/create_tag/kuaiyong/fsdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:00 200 328.251831ms ::1 GET /api/create_tag/kuaiyong/fsdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:00 200 3.450933343s ::1 GET /api/create_tag/kuaiyong/v0.1.2 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:02 200 2.581047748s ::1 GET /api/create_tag/kuaiyong/v0.1.2 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:03 200 13.838692803s ::1 GET /api/create_tag/kuaiyong/v0.1.3 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:04 200 299.037765ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:04 200 10.751367995s ::1 GET /api/create_tag/kuaiyong/v0.1.333 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:04 200 320.498817ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:05 200 358.45665ms ::1 GET /api/create_tag/kuaiyong/v0.1.335 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:05 200 9.856389481s ::1 GET /api/create_tag/kuaiyong/v0.1.36 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:05 200 318.934074ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:06 200 2.789884951s ::1 GET /api/create_tag/kuaiyong/v0.1.32 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:07 200 588.949444ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:07 200 285.941943ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:08 200 637.323029ms ::1 GET /api/deploy/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:08 200 305.755215ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:08 200 313.306493ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 20:20 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 20:22 200 297.988µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 197.052µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 251.973µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 1.230678529s ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 297.499735ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 293.878297ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 311.020816ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 318.901799ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 282.779378ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 328.880618ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 332.726561ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 276.313939ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:22 200 344.378795ms ::1 GET /api/create_tag/kuaiyong/fdd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 20:23 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 20:23 200 495.299µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:23 200 313.945244ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:23 200 315.16164ms ::1 GET /api/create_tag/kuaiyong/fdsfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:23 200 336.698527ms ::1 GET /api/create_tag/kuaiyong/fdsfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 20:24 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 20:25 200 775.38463ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:25 200 542.472µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:25 200 327.846614ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:26 200 9.828623397s ::1 GET /api/create_tag/kuaiyong/v0.1.37 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:26 200 7.017530125s ::1 GET /api/deploy/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:27 200 294.637254ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:30 200 293.597133ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:30 200 293.726644ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:30 200 292.888647ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:30 200 313.606858ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:30 200 311.190482ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:30 200 322.702903ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:30 200 319.228997ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:30 200 9.953444581s ::1 GET /api/create_tag/kuaiyong/v0.1.38 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:30 200 6.174192678s ::1 GET /api/deploy/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:31 200 25.358912427s ::1 GET /api/rollback/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:32 200 291.514481ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:32 200 257.046947ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:32 200 291.260989ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:33 200 283.420138ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:34 200 14.904335423s ::1 GET /api/rollback/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:35 200 12.019262136s ::1 GET /api/create_tag/kuaiyong/v0.1.40 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:36 200 321.035204ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:46 200 574.209752ms ::1 GET /api/tag_list/gameadmin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:46 200 276.059776ms ::1 GET /api/tag_list/gameweb Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:46 200 263.041162ms ::1 GET /api/tag_list/gamepromote Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:46 200 368.46445ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 20:51 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 20:52 200 508.521µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:52 200 186.773µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:52 200 116.705µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:52 200 610.175302ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:52 200 278.410438ms ::1 GET /api/tag_list/gameadmin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 20:53 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 20:53 200 654.158µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:53 200 570.551353ms ::1 GET /api/tag_list/gameadmin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:53 200 293.464454ms ::1 GET /api/tag_list/gameadmin Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:53 200 350.512868ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 20:55 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 20:55 200 628.765µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:55 200 557.730104ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:56 200 281.174918ms ::1 GET /api/tag_list/gamepromote Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 20:57 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 20:57 200 412.8µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:57 200 321.029392ms ::1 GET /api/create_tag/kuaiyong/ffdsf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 20:58 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 20:58 200 9.849161ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:59 200 90.007µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:59 200 308.645028ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:59 200 266.732009ms ::1 GET /api/tag_list/gamepromote Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:59 200 261.488204ms ::1 GET /api/tag_list/gamepromote Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 20:59 200 282.415492ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 20:59 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 20:59 200 1.529938ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:00 200 352.611907ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:00 200 320.723659ms ::1 GET /api/create_tag/kuaiyong/fsd Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 21:00 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 21:00 200 555.086µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:00 200 123.664µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:00 200 164.011µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:00 200 127.537µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:00 200 339.06498ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:00 200 332.706027ms ::1 GET /api/create_tag/kuaiyong/fdsfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:01 200 12.55450023s ::1 GET /api/create_tag/kuaiyong/v0.1.41 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 21:03 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[ERRO] 2019/07/31 21:06 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 21:06 200 700.698µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:06 200 148.314µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:06 200 84.524µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:06 200 78.881µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:06 200 651.476087ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:06 200 325.047134ms ::1 GET /api/create_tag/kuaiyong/dsfs Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:06 200 322.031896ms ::1 GET /api/create_tag/kuaiyong/dsfss Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:06 200 341.000807ms ::1 GET /api/create_tag/kuaiyong/dsfss Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 21:11 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 21:11 200 969.087µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:11 200 110.088µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:11 200 573.198038ms ::1 GET /api/create_tag/kuaiyong/fssdf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:11 200 282.597392ms ::1 GET /api/create_tag/kuaiyong/fssdf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:11 200 333.140042ms ::1 GET /api/create_tag/kuaiyong/fssdf Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:12 200 127.911µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 21:12 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 21:12 200 476.867µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:12 200 103.036µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:12 200 118.645µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:13 200 516.449237ms ::1 GET /api/create_tag/kuaiyong/fsdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:13 200 276.8307ms ::1 GET /api/create_tag/kuaiyong/fsdfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:13 200 319.263437ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:13 200 11.452917518s ::1 GET /api/create_tag/kuaiyong/v0.1.50 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:13 200 2.618149624s ::1 GET /api/create_tag/kuaiyong/v0.1.50 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 7.440368872s ::1 GET /api/create_tag/kuaiyong/v0.1.50 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 337.957276ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 302.897913ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 335.157012ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 355.525634ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 306.92398ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 337.758378ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 313.406856ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 307.309006ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 315.485333ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 331.962085ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 316.242361ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 348.669179ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 361.293382ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 370.111854ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:14 200 371.293061ms ::1 GET /api/create_tag/kuaiyong/v0.1.5r Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 21:16 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/31 21:17 200 598.649µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:17 200 71.169µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:17 200 95.714µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:17 200 596.936954ms ::1 GET /api/tag_list/kuaiyong Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:18 200 245.678255ms ::1 GET /api/tag_list/gamepromote Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:18 200 312.56883ms ::1 GET /api/create_tag/gamepromote/fsfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 21:18 200 278.818997ms ::1 GET /api/create_tag/gamepromote/fsfds Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 21:18 http: Server closed

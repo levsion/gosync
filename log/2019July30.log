@@ -1,0 +1,55 @@
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/30 20:17 200 320.285µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 47.774µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 82.195µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 45.456µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 75.625µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 50.553µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 93.713µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 53.115µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 56.972µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 51.248µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 66.301µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 82.525µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 56.043µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 72.16µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:18 200 52.479µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 85.831µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 93.894µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 45.199µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 72.295µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 81.601µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 57.12µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 50.007µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 50.356µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 64.574µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 65.596µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 54.775µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 49.992µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 47.159µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 78.052µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 47.543µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 47.124µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 43.9µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 89.176µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 74.047µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 39.286µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 20:19 200 49.709µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/30 20:54 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/30 20:55 200 251.491µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/30 21:03 http: Server closed
+Now listening on: http://localhost:8081
+Application started. Press CMD+C to shut down.
+[INFO] 2019/07/30 21:03 200 233.35µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 21:03 200 55.209µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 21:03 200 38.988µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 21:04 200 73.776µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 21:04 200 46.475µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 21:04 200 36.345µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/30 21:04 200 42.36µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 09:53 200 44.035793ms ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[INFO] 2019/07/31 09:53 200 95.681µs ::1 GET / Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+[ERRO] 2019/07/31 09:53 http: Server closed

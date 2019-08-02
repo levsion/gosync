@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+</head>
+<body>
+<style type="text/css">
+    .content{
+        width:350px;
+        height:200px;
+        border: #cdbdff solid 1px;
+        margin: 150px 0px 0px 450px;
+    }
+    .title{
+        height: 30px;
+        text-align: center;
+        padding-top: 5px;
+        background-color: #f6edff;
+    }
+    .info{
+        padding-top: 25px;
+    }
+    .inner{
+        margin-top: 10px;
+        text-align: center;
+    }
+</style>
+<div class="main">
+    <div class="content">
+        <div class="title">登录系统</div>
+        <div class="info">
+            <div class="inner">用户：<input id="username" type="text"></div>
+            <div class="inner">密码：<input id="password" type="password"></div>
+            <div class="inner"><button id="login">提交</button></div>
+            <div id="stdout_info" class="inner" style="color: red;font-size:13px;"></div>
+        </div>
+    </div>
+
+</div>
+<div id="loading" style="display: none;"><img style="height: 25px;width: 25px;" src="http://localhost:8081/static/images/loading.gif"></div>
+</body>
+<script language="JavaScript">
+    var Ajax = {
+        get: function(url, fn) {
+            //创建XMLHttpRequest对象
+            var xhr = new XMLHttpRequest();
+            //true表示异步
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = function() {
+                // readyState == 4说明请求已完成
+                if(xhr.readyState == 4 && xhr.status == 200 || xhr.status == 304) {
+                    //responseText：从服务器获得数据
+                    fn.call(this, xhr.responseText);
+                }
+            };
+            xhr.send();
+        },
+        post: function(url, data, fn) { //data应为'a=a1&b=b1'这种字符串格式
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", url, true);
+            // 添加http头，发送信息至服务器时内容编码类型
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.onreadystatechange = function() {
+                if(xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 304)) {
+                    fn.call(this, xhr.responseText);
+                }
+            };
+            xhr.send(data);
+        }
+    }
+    var host_url = "http://localhost:8081"
+
+    var login_obj = document.getElementById("login");
+    var username_obj = document.getElementById("username")
+    var password_obj = document.getElementById("password");
+    var stdout_info_obj = document.getElementById("stdout_info")
+
+    var login_fun = function(){
+        var username = username_obj.value
+        var password = password_obj.value
+        var post_str = "username="+username+"&password="+password
+        if(username.length<=0 || password.length<=0)
+        {
+            alert("用户密码不能为空!!!")
+            return false
+        }
+        var loading_new = document.getElementById("loading").cloneNode(true)
+        loading_new.id = "loading_new"
+        loading_new.style.display = "block"
+        stdout_info_obj.innerHTML = ""
+        stdout_info_obj.appendChild(loading_new)
+        Ajax.post(host_url+"/api/login",post_str,function(rs){
+            if(rs.length>6)
+            {
+                if(rs.substr(0,6)=="Error:")
+                {
+                    stdout_info_obj.innerText = rs
+                    return false
+                }
+            }
+            window.location.href = host_url
+        });
+    }
+    login.onclick = login_fun
+
+</script>
+
+</html>

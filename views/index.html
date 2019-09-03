@@ -64,14 +64,15 @@
 </style>
 
 <div class="main">
-    <div class="title">hello gosync<span style="font-size: 14px;position:absolute;left:840px;top:20px;">欢迎：<span style="color: #fc0ca9;">{{.username}}</span><a style="margin-left: 20px;" href="/logout">退出</a></span></div>
+    <div class="title">hello 网拓上线系统<span style="font-size: 14px;position:absolute;left:840px;top:20px;">欢迎：<span style="color: #fc0ca9;">{{.username}}</span><a style="margin-left: 20px;" href="/logout">退出</a></span></div>
     <div class="banner">
         项目列表：
         <select id="project" onchange="get_tag_list_fun()" style="height: 30px">
-            <option value="kuaiyong">快用app</option>
-            <option value="gameweb">金梅平台</option>
-            <option value="gameadmin">金梅运营后台</option>
-            <option value="gamepromote">金梅买量后台</option>
+            <!--<option value="kuaiyong">快用app</option>-->
+            <option value="jmweb">金梅平台</option>
+            <option value="jmh5">金梅H5</option>
+            <option value="jmadmin">金梅运营后台</option>
+            <option value="jmpromote">金梅买量后台</option>
         </select>
     </div>
     <div class="content">
@@ -84,7 +85,7 @@
                 <input id="tag" type="text" placeholder="v0.1.0" style="width: 60px">&nbsp;&nbsp;<button id="create_tag">生成版本</button>
             </div>
             <div class="info">
-                <button id="deploy" style="margin-left: 115px">上线</button>
+                <button id="deploy" style="margin-left: 115px">上线</button><span style="font-size: 7px;color: #b9cde1;margin-left: 10px;">（默认上线最终版本）</span>
             </div>
             <div class="info" style="border-right: #c0aafc solid 1px;">
                 <button id="rollback" style="margin-left: 115px">回滚</button>
@@ -93,7 +94,7 @@
 
         <div class="c_bottom">
             <div id="tag_list_info" class="stdout" style="width: 130px"></div>
-            <div id="stdout_info" class="stdout" style="width: 812px"></div>
+            <div id="stdout_info" class="stdout" style="width: 812px;"></div>
         </div>
 
     </div>
@@ -130,7 +131,7 @@
             xhr.send(data);
         }
     }
-    var host_url = "http://localhost:8081"
+    var host_url = "{{.host_url}}"
 
     var tag_list = document.getElementById("tag_list");
     var tag_list_info = document.getElementById("tag_list_info")
@@ -176,7 +177,7 @@
             alert("请先输入版本号")
             return false;
         }
-        if(confirm("确定给项目{"+project_name+"}生成新版本吗？"))
+        if(confirm("确定给项目 {"+project_name+"} 生成新版本吗？"))
         {
             var loading_new = document.getElementById("loading").cloneNode(true)
             loading_new.id = "loading_new"
@@ -210,7 +211,7 @@
         var project = document.getElementById("project").value
         var project_index = document.getElementById("project").selectedIndex;
         var project_name = document.getElementById("project").options[project_index].text
-        if(confirm("确定发布项目{"+project_name+"}吗？"))
+        if(confirm("确定发布项目 {"+project_name+"} 吗？"))
         {
             var loading_new = document.getElementById("loading").cloneNode(true)
             loading_new.id = "loading_new"
@@ -241,7 +242,7 @@
         var project = document.getElementById("project").value
         var project_index = document.getElementById("project").selectedIndex;
         var project_name = document.getElementById("project").options[project_index].text
-        if(confirm("确定回滚项目{"+project_name+"}吗？")) {
+        if(confirm("确定回滚项目 {"+project_name+"} 吗？")) {
             var loading_new = document.getElementById("loading").cloneNode(true)
             loading_new.id = "loading_new"
             loading_new.style.display = "block"

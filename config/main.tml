@@ -4,5 +4,16 @@ FireMethodNotAllowed = true
 DisableBodyConsumptionOnUnmarshal = false
 TimeFormat = "Mon, 01 Jan 2006 15:04:05 GMT"
 Charset = "UTF-8"
-[Other]
-    MyServerName = "gosync"
+[Server]
+    ServerName = "gosync"
+    Host = "localhost"
+    Port = 8081
+[Static]
+    StaticPath = "/Users/levsion/Documents/code/go/src/gosync/static"
+[Views]
+    ViewPath = "/Users/levsion/Documents/code/go/src/gosync/views"
+[Logs]
+    LogPath = "/Users/levsion/Documents/code/go/src/gosync/log"
+
+[Fabric]
+    FabFile = "/Users/levsion/Documents/code/python/lpy/fabric/fabfile.py"

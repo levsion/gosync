@@ -26,25 +26,50 @@ var sessionManager *sessions.Sessions
 func main() {
 	var cookieNameForSessionID = "gosync_sessionid"
 	sessionManager = sessions.New(sessions.Config{Cookie: cookieNameForSessionID,Expires:30*time.Minute})
-	var FAB_FILE = "/Users/levsion/Documents/code/python/lpy/fabric/fabfile.py"
 	//current_path, _ := filepath.Abs(`.`)
 	var GOPATH = os.Getenv("GOPATH")
 	arg_list := os.Args
-	var config_dir string
+	var config_file string
 	var PROJECT_DIR = GOPATH + "/src/gosync/"
 	if len(arg_list) >1 {
-		config_dir = arg_list[1]
+		config_file = arg_list[1]
 	}else {
-		config_dir = PROJECT_DIR + "config"
+		config_file = PROJECT_DIR + "config/main.tml"
 	}
-	if library.Substr(config_dir,-1,1) != "/" {
-		config_dir = config_dir + "/"
-	}
-	if !library.PathExists(config_dir) {
-		fmt.Println(config_dir)
+	if !library.IsFile(config_file) {
+		fmt.Println("config file: "+config_file+" not exists")
 		os.Exit(1)
 	}
-	log_path := PROJECT_DIR + "log/"
+	var(
+		config *library.TomlConfig
+		err error
+	)
+	if config, err = library.ReadConf(config_file); err != nil {
+		checkErr(err)
+	}
+
+	var FAB_FILE = config.Fabric.FabFile
+	log_path := config.Logs.LogPath
+	static_path := config.Static.StaticPath
+	view_path := config.Views.ViewPath
+	server_host := config.Server.Host
+	server_port := config.Server.Port
+	server_port_str := strconv.FormatInt(int64(server_port),10)
+	host_url := "http://"+server_host+":"+server_port_str
+	if !library.IsDir(static_path) {
+		fmt.Println("static path: "+static_path+" not exists")
+		os.Exit(1)
+	}
+	if !library.IsDir(view_path) {
+		fmt.Println("views path: "+view_path+" not exists")
+		os.Exit(1)
+	}
+	if library.Substr(log_path,-1,1) != "/" {
+		log_path = log_path + "/"
+	}
+	if library.Substr(view_path,-1,1) != "/" {
+		view_path = view_path + "/"
+	}
 
 	app := iris.New()
 	// Recover middleware recovers from any panics and writes a 500 if there was one.
@@ -82,9 +107,9 @@ func main() {
 		AllowCredentials: true,
 	})
 
-	app.StaticWeb("/static", "./static")
+	app.StaticWeb("/static", static_path)
 
-	app.RegisterView(iris.HTML(PROJECT_DIR+"views/", ".html"))
+	app.RegisterView(iris.HTML(view_path, ".html"))
 	app.Get("/", func(ctx iris.Context) {
 		session := sessionManager.Start(ctx)
 		username := session.GetString("username")
@@ -94,6 +119,7 @@ func main() {
 
 
 		ctx.ViewData("username", username)
+		ctx.ViewData("host_url", host_url)
 		ctx.ViewData("title", "gosync上线系统")
 		ctx.View("index.html")
 	},crs)
@@ -103,6 +129,7 @@ func main() {
 		if username!="" {
 			ctx.Redirect("/",http.StatusMovedPermanently)
 		}
+		ctx.ViewData("host_url", host_url)
 		ctx.View("login.html")
 	})
 	app.Get("/logout",func(ctx iris.Context){
@@ -117,7 +144,11 @@ func main() {
 
 		real_user := "gosync"
 		real_pwd := "123456"
-		if (username!= real_user || password!= real_pwd) {
+
+		customer_user := "customer"
+		customer_pwd := "wangtuo888"
+
+		if ((username!= real_user || password!= real_pwd) && (username!= customer_user || password!= customer_pwd)) {
 			ctx.WriteString("Error: 用户密码错误 !!!")
 			return
 		}
@@ -174,7 +205,7 @@ func main() {
 		})
 	}
 
-	_ = app.Run(iris.Addr(":8081"),iris.WithConfiguration(iris.TOML(config_dir+"main.tml")))
+	_ = app.Run(iris.Addr(":"+server_port_str),iris.WithConfiguration(iris.TOML(config_file)))
 }
 
 func newLogFile(log_path string) *os.File {

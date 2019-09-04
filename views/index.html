@@ -14,6 +14,7 @@
         width: 1000px;
         position: absolute;
         left: 200px;
+        margin-bottom: 50px;
     }
     .title{
         text-align: center;
@@ -44,7 +45,7 @@
     }
     .info{
         float: left;
-        width: 300px;
+        width: 200px;
         border-left: #c0aafc solid 1px;
         border-top: #c0aafc solid 1px;
 
@@ -61,9 +62,12 @@
     .inner{
         padding-top: 10px;
     }
+    button {
+        cursor:pointer
+    }
 </style>
 
-<div class="main">
+<div class="main" id="main">
     <div class="title">hello 网拓上线系统<span style="font-size: 14px;position:absolute;left:840px;top:20px;">欢迎：<span style="color: #fc0ca9;">{{.username}}</span><a style="margin-left: 20px;" target="_top" href="{{.host_url}}/logout">退出</a></span></div>
     <div class="banner">
         项目列表：
@@ -84,11 +88,14 @@
             <div class="info" style="width: 160px">
                 <input id="tag" type="text" placeholder="v0.1.0" style="width: 60px">&nbsp;&nbsp;<button id="create_tag">生成版本</button>
             </div>
-            <div class="info">
-                <button id="deploy" style="margin-left: 115px">上线</button><span style="font-size: 7px;color: #b9cde1;margin-left: 10px;">（默认上线最终版本）</span>
+            <div class="info" style="width: 160px;">
+                <button id="testing" style="margin-left: 55px">送测</button>
+            </div>
+            <div class="info" style="width: 219px;">
+                <button id="deploy" style="margin-left: 45px">上线</button><span style="font-size: 7px;color: #b9cde1;margin-left: 8px;">（默认上线最终版本）</span>
             </div>
             <div class="info" style="border-right: #c0aafc solid 1px;">
-                <button id="rollback" style="margin-left: 115px">回滚</button>
+                <button id="rollback" style="margin-left: 75px">回滚</button>
             </div>
         </div>
 
@@ -103,6 +110,11 @@
 
 </body>
 <script language="JavaScript">
+    var document_width = document.body.clientWidth
+    var main_obj = document.getElementById("main")
+    var main_width = main_obj.clientWidth || main_obj.offsetWidth;
+    var main_left = (document_width - main_width)/2
+    document.getElementById("main").style.left = main_left + "px"
     var Ajax = {
         get: function(url, fn) {
             //创建XMLHttpRequest对象
@@ -136,6 +148,7 @@
     var tag_list = document.getElementById("tag_list");
     var tag_list_info = document.getElementById("tag_list_info")
     var create_tag = document.getElementById("create_tag");
+    var testing = document.getElementById("testing");
     var deploy = document.getElementById("deploy");
     var rollback = document.getElementById("rollback");
     var stdout_info = document.getElementById("stdout_info")
@@ -194,6 +207,37 @@
                     }else
                     {
                         get_tag_list_fun()
+                    }
+                }
+                var new_dev = document.createElement("div");
+                new_dev.innerText = rs
+                new_dev.classList.add("inner")
+                new_dev.style.color = color_class
+                stdout_info.removeChild(loading_new)
+                stdout_info.appendChild(new_dev)
+                stdout_info.scrollTop = stdout_info.scrollHeight;
+            });
+        }
+    }
+
+    testing.onclick = function(){
+        var project = document.getElementById("project").value
+        var project_index = document.getElementById("project").selectedIndex;
+        var project_name = document.getElementById("project").options[project_index].text
+        if(confirm("确定送测项目 {"+project_name+"} 吗？"))
+        {
+            var loading_new = document.getElementById("loading").cloneNode(true)
+            loading_new.id = "loading_new"
+            loading_new.style.display = "block"
+            stdout_info.appendChild(loading_new)
+            stdout_info.scrollTop = stdout_info.scrollHeight;
+            Ajax.get(host_url+"/api/testing/"+project,function(rs){
+                var color_class = "green"
+                if(rs.length>6)
+                {
+                    if(rs.substr(0,6)=="Error:")
+                    {
+                        color_class = "red"
                     }
                 }
                 var new_dev = document.createElement("div");

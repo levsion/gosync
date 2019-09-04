@@ -186,6 +186,15 @@ func main() {
 				ctx.WriteString(rs)
 			}
 		})
+		api.Get("/testing/{project:string}",func(ctx iris.Context){
+			project := ctx.Params().Get("project")
+			rs,err := exec_shell("fab -r "+FAB_FILE+" testing "+project)
+			if err !=nil {
+				ctx.WriteString(err.Error())
+			}else {
+				ctx.WriteString(rs)
+			}
+		})
 		api.Get("/deploy/{project:string}",func(ctx iris.Context){
 			project := ctx.Params().Get("project")
 			rs,err := exec_shell("fab -r "+FAB_FILE+" deploy "+project)

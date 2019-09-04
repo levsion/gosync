@@ -114,7 +114,7 @@ func main() {
 		session := sessionManager.Start(ctx)
 		username := session.GetString("username")
 		if username=="" {
-			ctx.Redirect("/login",http.StatusMovedPermanently)
+			ctx.Redirect("/login",http.StatusFound)
 		}
 
 
@@ -127,7 +127,7 @@ func main() {
 		session := sessionManager.Start(ctx)
 		username := session.GetString("username")
 		if username!="" {
-			ctx.Redirect("/",http.StatusMovedPermanently)
+			ctx.Redirect("/",http.StatusFound)
 		}
 		ctx.ViewData("host_url", host_url)
 		ctx.View("login.html")
@@ -135,7 +135,8 @@ func main() {
 	app.Get("/logout",func(ctx iris.Context){
 		session := sessionManager.Start(ctx)
 		session.Delete("username")
-		ctx.Redirect("/login",http.StatusMovedPermanently)
+		time.Sleep(time.Duration(500) * time.Millisecond)
+		ctx.Redirect("/login",http.StatusFound)
 	})
 
 	app.Post("/api/login", func(ctx iris.Context) {

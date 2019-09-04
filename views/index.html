@@ -64,7 +64,7 @@
 </style>
 
 <div class="main">
-    <div class="title">hello 网拓上线系统<span style="font-size: 14px;position:absolute;left:840px;top:20px;">欢迎：<span style="color: #fc0ca9;">{{.username}}</span><a style="margin-left: 20px;" href="/logout">退出</a></span></div>
+    <div class="title">hello 网拓上线系统<span style="font-size: 14px;position:absolute;left:840px;top:20px;">欢迎：<span style="color: #fc0ca9;">{{.username}}</span><a style="margin-left: 20px;" target="_top" href="{{.host_url}}/logout">退出</a></span></div>
     <div class="banner">
         项目列表：
         <select id="project" onchange="get_tag_list_fun()" style="height: 30px">

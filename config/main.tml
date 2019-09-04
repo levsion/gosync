@@ -17,3 +17,6 @@ Charset = "UTF-8"
 
 [Fabric]
     FabFile = "/Users/levsion/Documents/code/python/lpy/fabric/fabfile.py"
+
+[Git]
+    GitPath = ""

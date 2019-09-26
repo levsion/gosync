@@ -6,9 +6,10 @@ import (
 	"net/http"
 	"os"
 	"os/exec"
+	"regexp"
+	"strconv"
 	"strings"
 	"time"
-	"strconv"
 
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/middleware/logger"
@@ -144,12 +145,15 @@ func main() {
 		password := ctx.FormValue("password")
 
 		real_user := "gosync"
-		real_pwd := "123456"
+		real_pwd := "levsion"
 
-		customer_user := "customer"
+		customer_user := "test"
 		customer_pwd := "wangtuo888"
 
-		if ((username!= real_user || password!= real_pwd) && (username!= customer_user || password!= customer_pwd)) {
+		h5_user := "test_h5"
+		h5_pwd := "wangtuo999"
+
+		if ((username!= real_user || password!= real_pwd) && (username!= customer_user || password!= customer_pwd) && (username!= h5_user || password!= h5_pwd)) {
 			ctx.WriteString("Error: 用户密码错误 !!!")
 			return
 		}
@@ -279,5 +283,18 @@ func corsAll(ctx iris.Context) {
 		ctx.WriteString("Error: 请先登录 !!!")
 		return
 	}
+	//check user permission
+	ss := ctx.RequestPath(false);
+	r,_:=regexp.Compile("/api/testing.+")
+	if(username !="gosync" && !r.MatchString(ss)) {
+		ctx.WriteString("Error: 您没有权限 !!!")
+		return
+	}
+	rr,_:= regexp.Compile("/api/testing/.*h5.*")
+	if(username =="test_h5" && !rr.MatchString(ss)) {
+		ctx.WriteString("Error: 您没有权限 !!!")
+		return
+	}
+
 	ctx.Next()
 }

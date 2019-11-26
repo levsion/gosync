@@ -26,7 +26,7 @@ var sessionManager *sessions.Sessions
 
 func main() {
 	var cookieNameForSessionID = "gosync_sessionid"
-	sessionManager = sessions.New(sessions.Config{Cookie: cookieNameForSessionID,Expires:30*time.Minute})
+	sessionManager = sessions.New(sessions.Config{Cookie: cookieNameForSessionID,Expires:60*time.Minute})
 	//current_path, _ := filepath.Abs(`.`)
 	var GOPATH = os.Getenv("GOPATH")
 	arg_list := os.Args
